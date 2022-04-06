@@ -1,0 +1,131 @@
+{
+  "institution": {
+    "medical_category": "عيادة",
+    "name": "عيادة الامل",
+    "registration_no": "1233456",
+    "phone": "+9647812345678",
+    "owner_id": 1
+  },
+  "medical_specialties": [{
+    "other": "اختصاص غير معرف"
+  },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "institution_treatments": [{
+    "name": "علاج واحد"
+  },
+    {
+      "name": "علاج اثنين"
+    }
+  ],
+  "address": {
+    "near_by": "سوق الكم مقابل روتانا",
+    "region_id": 4,
+    "city_id": 4,
+    "governorate_id": 1,
+    "country_id": 106,
+    "location": {
+      "latitude": 33.366961676025,
+      "longitude": 44.385127776377
+    }
+  },
+  "available_schedules": [{
+    "start_date": "2021-11-13 17:00:00",
+    "end_date": "2021-11-13 21:00:00",
+    "is_recurring": 1,
+    "recurring_week_day": "SA",
+    "slot_time": "00:30:00"
+  },
+    {
+      "start_date": "2021-11-14 17:00:00",
+      "end_date": "2021-11-14 21:00:00",
+      "is_recurring": 1,
+      "recurring_week_day": "SU",
+      "slot_time": "00:30:00"
+    },
+    {
+      "start_date": "2021-11-15 18:00:00",
+      "end_date": "2021-11-15 22:00:00",
+      "is_recurring": 1,
+      "recurring_week_day": "MO",
+      "slot_time": "00:30:00"
+    },
+    {
+      "start_date": "2021-11-16 17:00:00",
+      "end_date": "2021-11-16 21:00:00",
+      "is_recurring": 1,
+      "recurring_week_day": "TU",
+      "slot_time": "00:30:00"
+    },
+    {
+      "start_date": "2021-11-17 17:00:00",
+      "end_date": "2021-11-17 21:00:00",
+      "is_recurring": 1,
+      "recurring_week_day": "WE",
+      "slot_time": "00:30:00"
+    }
+  ],
+  "staffs": [{
+    "staff_id": 1,
+    "role_id": 1,
+    "available_schedules": [{
+      "start_date": "2021-11-13 17:00:00",
+      "end_date": "2021-11-13 21:00:00",
+      "is_recurring": 1,
+      "recurring_week_day": "SA",
+      "slot_time": "00:30:00"
+    },
+      {
+        "start_date": "2021-11-14 17:00:00",
+        "end_date": "2021-11-14 21:00:00",
+        "is_recurring": 1,
+        "recurring_week_day": "SU",
+        "slot_time": "00:30:00"
+      }
+    ]
+  },
+    {
+      "staff_id": 2,
+      "role_id": 1,
+      "available_schedules": [{
+        "start_date": "2021-11-15 18:00:00",
+        "end_date": "2021-11-15 22:00:00",
+        "is_recurring": 1,
+        "recurring_week_day": "MO",
+        "slot_time": "00:30:00"
+      }]
+    }
+  ],
+  "reservation_setting": {
+    "register_on_attendance": 0,
+    "reserve_on_attendance": 0,
+    "reserve_online": 0,
+    "reserve_by_phone": 1,
+    "reserve_on_attendance_duration_id": 1,
+    "reserve_online_duration_id": 2,
+    "reserve_by_phone_duration_id": 3
+  },
+  "service_fees": [{
+    "other": "فحص تخطيط",
+    "price": 25000,
+    "currency": "IQD"
+  },
+    {
+      "service_id": 2,
+      "price": 30000,
+      "currency": "IQD"
+    }
+  ],
+  "setting": {
+    "show_email": 0,
+    "show_phone": 1,
+    "show_messages": 1,
+    "show_recommendations": 1,
+    "show_ratings": 1
+  }
+}
